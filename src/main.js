@@ -5,7 +5,7 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 
 if (window.location.href.endsWith('wwdc23')) {
-  window.location.href = '/wwdc23_en.html'
+  window.location.href = '/wwdc23/en/index.html'
 }
 
 const pinia = createPinia()
