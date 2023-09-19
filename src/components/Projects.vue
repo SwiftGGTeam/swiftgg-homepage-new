@@ -10,7 +10,7 @@ import GGTalkIconImg from '../assets/ggtalk-icon.png'
     <div class="py-16 mx-2 rounded-md bg-purple-950">
       <div class="flex flex-col lg:flex-row justify-center gap-10 px-10">
         <div>
-          <a target="_blank" href="https://swiftgg.gitbook.io/swift/">
+          <a target="_blank" href="https://gitbook.swiftgg.team/swift/">
             <div class="flex gap-4 items-top pb-2">
               <img :src="ManualIconImg" class="w-16 h-16">
 

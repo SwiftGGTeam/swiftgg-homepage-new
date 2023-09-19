@@ -16,7 +16,7 @@ import SwiftApiDesignImg from '../assets/swift-api-design.png'
           <p>Swift 语言官方文档</p> 
         </h1>
 
-        <a target="_blank" href="https://swiftgg.gitbook.io/swift/">
+        <a target="_blank" href="https://gitbook.swiftgg.team/swift/">
           <div class="flex gap-2 items-center pb-2">
             <img :src="SwiftCnManualImg" class="w-16 h-16">
 

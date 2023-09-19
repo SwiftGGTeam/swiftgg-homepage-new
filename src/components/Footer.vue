@@ -17,7 +17,7 @@ import SwiftGGLogo from '../assets/swiftgg-logo.png'
         <div class="md:w-3/5 flex flex-col md:flex-row gap-6 justify-end">
           <div class="flex flex-col gap-1.5">
             <p class="font-bold text-lg">Project</p>
-            <a target="_blank" href="https://swiftgg.gitbook.io/swift/" class="text-slate-500 text-sm">Swift 官方文档</a>
+            <a target="_blank" href="https://gitbook.swiftgg.team/swift/" class="text-slate-500 text-sm">Swift 官方文档</a>
             <a href="#Playground" class="text-slate-500 text-sm">WWDC.playground</a>
             <a target="_blank" href="https://talk.swift.gg/" class="text-slate-500 text-sm">GGTalk 播客</a>
           </div>
