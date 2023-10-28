@@ -32,6 +32,7 @@ const gg = useGGStore()
         <!-- Desktop menu start-->
         <div class="hidden md:flex md:items-center">
           <nav-link href="/" class="font-bold px-3 rounded-full">首页</nav-link>
+          <nav-link href="https://board.swiftgg.team/" class="font-bold px-3 rounded-full">公告板</nav-link>
           <nav-link href="#Manual" class="font-bold px-3 rounded-full">Swift 中文官方文档</nav-link>
           <nav-link href="#Playground" class="font-bold px-3 rounded-full">WWDC.playground</nav-link>
           <nav-link href="https://talk.swift.gg/" target="_blank" class="font-bold px-3 rounded-full">GGTalk</nav-link>
@@ -49,7 +50,7 @@ const gg = useGGStore()
                 <div class="px-1 py-1">
                   <MenuItem as="div" v-slot="{ active }">
                     <a href="https://archive.swift.gg"
-                      :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">旧版 Swift.gg 网站</a>
+                      :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">旧版 SwiftGG 网站</a>
                   </MenuItem>
                   <MenuItem as="div" v-slot="{ active }">
                     <a href="https://github.com/atConf"
