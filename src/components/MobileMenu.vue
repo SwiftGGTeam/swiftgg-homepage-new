@@ -28,7 +28,7 @@ const gg = useGGStore();
           </DisclosureButton>
 
           <DisclosurePanel as="ul" class="mt-1">
-            <a @click="gg.toggleMobileMenu()" href="https://archive.swift.gg" :class="[active ? 'bg-violet-950 text-slate-100' : 'text-slate-200', 'block px-4 py-2 text-md']">旧版 SwiftGG 网站</a>
+            <a @click="gg.toggleMobileMenu()" href="https://swift.gg" :class="[active ? 'bg-violet-950 text-slate-100' : 'text-slate-200', 'block px-4 py-2 text-md']">旧版 SwiftGG 网站</a>
             <a @click="gg.toggleMobileMenu()" href="https://github.com/atConf" :class="[active ? 'bg-violet-950 text-slate-100' : 'text-slate-200', 'block px-4 py-2 text-md']">@Swift 大会</a>
             <a @click="gg.toggleMobileMenu()" href="https://github.com/SwiftGGTeam/COSMOS" :class="[active ? 'bg-violet-950 text-slate-100' : 'text-slate-200', 'block px-4 py-2 text-md']">COSMOS 教程</a>
             <a @click="gg.toggleMobileMenu()" href="https://numbbbbb.gitbooks.io/ios-accessibility-programming-guide-in-chinese/content/index.html" :class="[active ? 'bg-violet-950 text-slate-100' : 'text-slate-200', 'block px-4 py-2 text-md']">无障碍开发指导</a>

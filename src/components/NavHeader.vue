@@ -49,7 +49,7 @@ const gg = useGGStore()
               <MenuItems class="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                 <div class="px-1 py-1">
                   <MenuItem as="div" v-slot="{ active }">
-                    <a href="https://archive.swift.gg"
+                    <a href="https://swift.gg"
                       :class="[active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'block px-4 py-2 text-sm']">旧版 SwiftGG 网站</a>
                   </MenuItem>
                   <MenuItem as="div" v-slot="{ active }">
