@@ -7,7 +7,7 @@ import WWDCPlayground from './components/wwdc_pg/WWDCPlayground.vue'
 import atSwift from './components/atswift/atSwift.vue'
 import xrOS from './components/xros/xrOS.vue'
 import SwiftManual from './components/SwiftManual.vue'
-import GGTalk from './components/GGTalk.vue'
+import Twine from './components/Twine.vue'
 import Partner from './components/Partner.vue'
 import Social from './components/Social.vue'
 import Footer from './components/Footer.vue'
@@ -31,7 +31,7 @@ inject();
   <atSwift />
   <xrOS />
   <SwiftManual />
-  <GGTalk />
+  <Twine />
   <Partner />
   <Social />
   <Footer />

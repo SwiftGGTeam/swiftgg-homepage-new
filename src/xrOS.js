@@ -14,5 +14,7 @@ class Playground {
 }
 
 export const activities = [
-  new Playground(xr24CoverImg, "Let’s xrOS 2024", "SwiftGG", "2024 年 3 月 9 日 - 3 月 10 日", "10 名嘉宾", "欢迎参加", "https://xr24.swiftgg.team")
+  new Playground(xr24CoverImg, "Let’s xrOS 2024", "SwiftGG", "2024 年 3 月 9 日 - 3 月 10 日", "10 名嘉宾", "欢迎参加", "https://xr24.swiftgg.team"),
+  new Playground(xr24CoverImg, "Let’s xrOS 2024", "SwiftGG", "2024 年 3 月 9 日 - 3 月 10 日", "10 名嘉宾", "隐藏", "https://xr24.swiftgg.team"),
+  new Playground(xr24CoverImg, "Let’s xrOS 2024", "SwiftGG", "2024 年 3 月 9 日 - 3 月 10 日", "10 名嘉宾", "隐藏", "https://xr24.swiftgg.team")
 ]

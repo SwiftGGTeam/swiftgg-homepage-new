@@ -11,7 +11,7 @@ class GGTalkComment {
 }
 
 export const ggTalkComments = [
-  new GGTalkComment(manAvatar, "五爪猴", "2022/11/24", "\"嘉宾的嗓音加上吉他伴奏真好好听，如他所说弹吉他真是件很享受的事情，有一点点相似的感受。\""),
-  new GGTalkComment(womanAvatar, "曼尼", "2021/04/14", "\"加拿大的这位年轻爸爸考虑的非常周到，在预期目标方面把握的很好，健康、环境、语言都是关键问题。很棒！\""),
-  new GGTalkComment(womanAvatar, "ElisaElisa", "2021/11/23", "\"虽然只是日常，但是因为是异国他乡，是我从没有到过的地方，听完之后，就好像自己也过了一下加拿大的冬天。\"")
+  new GGTalkComment(manAvatar, "Deep·Gray", "2023/08/13", "\"太棒了，虽然可以用自己蹩脚的英语看懂80%，也可以借助翻译工具，但效率确实不如母语，且部份句式还容易理解错误。这个工具的中英对照简直太棒了，既能一眼看懂这段内容，也能随便读一下英语，提升语感。\""),
+  new GGTalkComment(womanAvatar, "swiftrix", "2023/09/09", "\"很棒 中文效率高很多 对初学者来说看中文的效率更高\""),
+  new GGTalkComment(womanAvatar, "hohn chan", "2023/08/03", "\"瞌睡了正在找枕头，这不就来了么。\"")
 ]

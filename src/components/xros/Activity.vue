@@ -1,4 +1,5 @@
 <script setup>
+import { computed } from 'vue';
 import { CalendarDaysIcon, MicrophoneIcon } from '@heroicons/vue/24/solid'
 const props = defineProps({
   activity: {
@@ -6,10 +7,14 @@ const props = defineProps({
     required: true
   }
 })
+
+const activityOpacity = computed(() => {
+  return props.activity.btnText === '隐藏' ? 0 : 1;
+});
 </script>
 
 <template>
-  <div class="px-2 py-2 bg-white rounded-md activity-container">
+  <div :style="{ opacity: activityOpacity, pointerEvents: activity.btnText === '隐藏' ? 'none' : 'auto' }" class="px-2 py-2 bg-white rounded-md activity-container">
     <div class="flex flex-col">
       <img :src="activity.coverUrl" class="w-full rounded-md pb-2" alt="">
       <p class="font-semibold text-lg pb-1 "> {{ activity.title }}</p>
