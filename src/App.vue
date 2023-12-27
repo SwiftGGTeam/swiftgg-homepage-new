@@ -29,7 +29,6 @@ inject();
   <Projects />
   <WWDCPlayground />
   <atSwift />
-  <xrOS />
   <SwiftManual />
   <Twine />
   <Partner />
