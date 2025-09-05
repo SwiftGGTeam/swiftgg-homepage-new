@@ -1,0 +1,14 @@
+{
+    "appclips": {
+        "apps": ["4B97U7G8A7.team.swiftgg.appclipscarddemo.Clip"]
+    },
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "4B97U7G8A7.team.swiftgg.appclipscarddemo",
+                "paths": ["/nfc/*", "/test/*"]
+            }
+        ]
+    }
+}
