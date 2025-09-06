@@ -1,12 +1,12 @@
 {
     "appclips": {
-        "apps": ["4B97U7G8A7.team.swiftgg.appclipscarddemo.Clip"]
+        "apps": ["4B97U7G8A7.team.swiftgg.amazingappclips.Clip"]
     },
     "applinks": {
         "apps": [],
         "details": [
             {
-                "appID": "4B97U7G8A7.team.swiftgg.appclipscarddemo",
+                "appID": "4B97U7G8A7.team.swiftgg.amazingappclips",
                 "paths": ["/nfc/*", "/test/*"]
             }
         ]
