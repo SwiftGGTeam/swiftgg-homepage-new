@@ -1,0 +1,18 @@
+{
+    "appclips": {
+        "apps": ["4B97U7G8A7.team.swiftgg.AmazingAppClips.Clip"]
+    },
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "4B97U7G8A7.team.swiftgg.AmazingAppClips",
+                "paths": ["/nfc/*", "/test/*"]
+            },
+            {
+                "appID": "4B97U7G8A7.team.swiftgg.NFCTagReader",
+                "paths": ["/demo/*", "/example/*"]
+      }
+        ]
+    }
+}
